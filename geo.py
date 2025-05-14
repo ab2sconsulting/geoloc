@@ -1,3 +1,9 @@
+import streamlit as st
+import streamlit.components.v1 as components
+import requests
+
+GOOGLE_API_KEY = os.getenv("api_maps")
+
 # ====== TITRE ======
 st.title("📍 Localisation instantanée")
 

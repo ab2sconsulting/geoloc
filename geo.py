@@ -1,6 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import requests
+import os
+
 
 GOOGLE_API_KEY = os.getenv("api_maps")
 
